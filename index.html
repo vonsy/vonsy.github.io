@@ -1,7 +1,46 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+---
+layout: default
+title: 冲出宁静号
+---
+<div id='wrapper'>
+    <div id='posts'>
+    		{% for post in site.posts %}
+            <div class='postInfo'>
+                <a href='{{ post.url }}'>
+                    {{ post.date | date_to_string }}
+                    <br />
+                    <span>{{ post.date | date:"%I:%M %p" }}</span>
+                </a>
+            </div>
+            <div class='postWrapper'>
+                <div class='postContainer'> 
+                    <div class='post'>
+                        <h3>{{ post.title }}</h3>
+                        <figure class="">
+							<p>{{ post.content }}</p>
+                        </figure>
+                    </div>
+                    <!--
+                    <div class='insideInfo'>
+                        <div class='postTags'>
+                            {{ post.date | timeago(Date.today) }}
+                        </div>
+                        <div class='postNotes'>
+                            0 notes
+                        </div>
+                        <br class='clear' />
+                    </div>
+                    -->
+                </div>
+            </div>
+            {% endfor %}
+
+    </div>
+    <div class='footer'>
+        <div class='credits'>
+            <a href='http://fengsongyan.com/atom.xml'>RSS</a> | <a href='/archive'>Archive</a> | 
+            Theme by: <a href='http://fengsongyan.com'>FSY</a>
+        </div>
+            <a href='/page/2'>&#171; Older</a>
+    </div>
+</div>
