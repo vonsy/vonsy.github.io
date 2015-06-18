@@ -1,15 +1,43 @@
----
-layout: default
----
-<div id="post">
-{{ content }}
-</div>
+<!DOCTYPE html>
+<html lang="zh-cn">
 
-<div id="related">
-  <h2>Related Posts</h2>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  {% include head.html %}
+
+<body>
+	<div id='header'>
+	    <div id='headerContent'>
+	        <h1><a href='/'>Serenity</a></h1>
+	            <p>冲出宁静号 | <a href="https://twitter.com/#!/vonsy">Twitter</a> | <a href="https://www.google.com/+BadRobots">Google+</a> | <a href="https://www.facebook.com/vonsy">Facebook</a> | <a href="{{ site.url}}/pgp.txt">Public Keys</a></p>
+	    </div>
+	</div>
+<div id='wrapper'>
+    <div id='posts'>    
+            <div class='postInfo'>
+            </div>
+
+            <div class='postWrapper'>
+                <div class='postContainer'> 
+                    <div class='post'>
+                    	<h3>{{ page.title }}</h3>
+                        <p>{{ content }}</p>
+                    </div>
+                    {% if page.comments %}
+
+                    <div class='insideInfo'>
+                    </div>
+                    <div style="margin: 10px">
+                    {% include comments.html %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+    </div>
+    <div class='footer'>
+        <div class='credits'>
+            Host on <a href='https://pages.github.com/'>Github</a> | <a href='/atom.xml'>RSS</a> | Theme by: <a href='mailto:fsy@outlook.com'>FSY</a>
+        </div>
+    </div>
 </div>
+</body>
+</html>
+
