@@ -1,3 +1,5 @@
 paginate: 8
 paginate_path: "page/:num"
 timezone: Asia/Shanghai
+source: _posts
+destination: _site
