@@ -1,12 +1,9 @@
 paginate: 8
 paginate_path: "page/:num"
 timezone: Asia/Shanghai
-source: _posts
-destination: _site
 gems:
    - jekyll-mentions
    - jemoji
    - jekyll-redirect-from
    - jekyll-sitemap
    - jekyll-feed
-   - jekyll-timeago
