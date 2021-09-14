@@ -11,6 +11,4 @@ permalink: about.html
 
 **Serenity** is a 2005 American space Western film written and directed by Joss Whedon in his feature directorial debut. The film is a continuation of Whedon's short-lived 2002 Fox television series Firefly and stars the same cast, taking place after the events of the final episode. Set in 2517, Serenity is the story of the crew of Serenity, a "Firefly-class" spaceship. The captain and first mate are veterans of the Unification War, having fought on the losing Independent side against the Alliance. Their lives of smuggling and cargo-running are interrupted by a psychic passenger who harbors a dangerous secret.
 
----
-
 **Me** I'm Nobody! Who are you? 
