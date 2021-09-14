@@ -6,6 +6,4 @@ tags: [talk]
 comments: false
 ---
 
-# 关于此站 #
-
 使用Markdown在Github上记录一些东西.
