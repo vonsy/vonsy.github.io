@@ -15,8 +15,9 @@ title: 冲出宁静号
             <div class='postWrapper'>
                 <div class='postContainer'> 
                     <div class='post'>
-                        <h3>{{ post.title }}</h3>
+                        <h3><a href='{{ post.url }}'>{{ post.title }}</a></h3>
                         <p>{{ post.content }}</p>
+                        
                     </div>
                     
                     <div class='insideInfo'>
@@ -35,9 +36,6 @@ title: 冲出宁静号
 
     </div>
     <div class='footer'>
-        <div class='credits'>
-            Host on <a href='https://pages.github.com/'>Github</a> | <a href='/atom.xml'>RSS</a> | Theme by: <a href='mailto:fsy@outlook.com'>FSY</a>
-        </div>
         <div id="post-pagination" class="pagination">
           {% if paginator.previous_page %}
               {% if paginator.previous_page == 1 %}
