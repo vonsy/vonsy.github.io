@@ -1,3 +1,8 @@
+---
+title: "About Serenity"
+permalink: about.html
+---
+
 ## About Serenity ##
 
 ---
