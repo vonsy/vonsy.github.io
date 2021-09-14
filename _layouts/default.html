@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-
-  {% include head.html %}
-
+{% include head.html %}
 <body>
-<div id='header'>
+  <div id='wrapper'>
+  <div id='header'>
     <div id='headerContent'>
-        <h1><a href='/'>Serenity</a></h1>
-            <p>冲出宁静号 | <a href="https://twitter.com/vonsy">Twitter</a> | <a href="{{ site.url}}/pgp.txt">Public Keys</a></p>
+      <h1><a href='/'>Serenity</a></h1>
+        <p>冲出宁静号 | <a href="https://twitter.com/vonsy">Twitter</a> | <a href="{{ site.url}}/pgp">Public Keys</a> | <a href="about">About</a></a></p>
     </div>
-</div>
+  </div>
   
   {{ content }}
   <br class='clear' />
-
-  {% include footer.html %}
+{% include footer.html %}
+</div>
 </body>
 </html>

@@ -1,16 +1,17 @@
+---
+layout: page
+title: "PGP Key"
+permalink: pgp.html
+---
+```
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
-
-Key ID:
-0xD8672AA6
-
-Key fingerprint:
-5A58 AD64 EC5B CBF7 1C81 D6BD 9028 FDAB D867 2AA6
+Key ID: 0xD8672AA6
+Key fingerprint: 5A58 AD64 EC5B CBF7 1C81 D6BD 9028 FDAB D867 2AA6
 
 Download Link:
 http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x9028FDABD8672AA6
 https://keyserver2.pgp.com/vkd/DownloadKey.event?keyid=0x9028FDABD8672AA6
-https://dl.dropbox.com/u/1553969/Keys/FengSongYan.asc
 
 About PGP:
 Pretty Good Privacy (PGP): http://en.wikipedia.org/wiki/Pretty_Good_Privacy
@@ -31,6 +32,6 @@ gQ8FxWNWLMXtUIwjyqC79oavJhWFGCnBwHs8npnU0tXa/HSjVWCzfJvFM7hEh0Oe
 MVPZ+nutc1bqkGMRUVHKm4fCGN3DeBFfwlsuSAG5IUn8HbLH11sUDoOL1FyQa3Sf
 ONvpsTtTsYh4agquW/iFlFyjGon7OQUJY7Zjg4Ovxn2zpmkI4glmtaRk6meZgmr1
 6PLRVwaTosku12+1gVPgPC4OgeADurRponxOhtm2sgbHn0pBxiWBSje12ivkd4ZJ
-41z+bgr09x0=
-=00jQ
+41z+bgr09x0==00jQ
 -----END PGP SIGNATURE-----
+```
