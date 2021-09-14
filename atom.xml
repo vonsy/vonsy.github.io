@@ -4,10 +4,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>冲出宁静号</title>
- <link href="http://fengsongyan.com/atom.xml" rel="self"/>
- <link href="http://fengsongyan.com/"/>
+ <link href="http://vonsy.net/atom.xml" rel="self"/>
+ <link href="http://vonsy.net/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://fengsongyan.com/</id>
+ <id>http://vonsy.net/</id>
  <author>
    <name>FengSongYan</name>
    <email>fsy@outlook.com</email>
@@ -16,9 +16,9 @@
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://fengsongyan.com{{ post.url }}"/>
+   <link href="http://vonsy.net{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://fengsongyan.com{{ post.id }}</id>
+   <id>http://vonsy.net{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
