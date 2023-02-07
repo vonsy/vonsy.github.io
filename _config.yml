@@ -1,0 +1,51 @@
+title: 冲出宁静号
+email: fsy@outlook.com
+description: >-
+  Per aspera ad astra
+  循此苦旅,以达星辰
+description2: >-
+  Live long and prosper
+  生生不息,繁荣昌盛
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://vonsy.net"
+theme: minima
+minima:
+  skin: auto
+#  social_links:
+#    - { platform: github,  user_url: "https://github.com/vonsy" }
+#    - { platform: twitter, user_url: "https://twitter.com/vonsy" }
+#    - { platform: telegram, user_url: "https://t.me/thispc" }
+#    - { platform: youtube, user_url: "https://www.youtube.com/@dbms" }
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+header_pages:
+  - archive.md
+  - about.md
+show_excerpts: true
+disqus:
+  shortname: thispc
+author:
+#  name: firefly
+#  email: "fsy@outlook.com"
+jekyll-archives:
+  enabled: []
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
