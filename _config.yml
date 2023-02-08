@@ -2,10 +2,15 @@ title: 冲出宁静号
 email: fsy@outlook.com
 description: >-
   Per aspera ad astra
-  循此苦旅,以达星辰
-description2: >-
+  循此苦旅,以达星辰<br />
   Live long and prosper
   生生不息,繁荣昌盛
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
+      sidebar: true
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vonsy.net"
 theme: minima
@@ -20,6 +25,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-archives
+  - jekyll-toc
+  - jekyll-seo-tag
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -49,3 +56,18 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: true
+  no_toc_section_class: no_toc_section
+  list_id: toc
+  list_class: section-nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-
