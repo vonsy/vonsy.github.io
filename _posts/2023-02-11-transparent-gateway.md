@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Transparent proxy
+title: Transparent Gateway
 date: '2023-02-11T20:43:00+08:00'
 tags: [iptables,docker]
 categories: network
 comments: true
 ---
 
-### Transparent Gateway(Proxy)
 #### 软硬件
 N1,NDM(aarch64 GNU/Linux)
 #### 创建网络,网卡混杂模式
